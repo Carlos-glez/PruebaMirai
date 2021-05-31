@@ -11,4 +11,4 @@ En cuanto a la segunda prueba, la he realizado de dos formas:
 - La otra forma se haría añadiendo el shortcode `[info_site]` con la linea de comando `<?php wp_footer(); Echo do_shortcode ("[info_site]"); ?>` a la página en la cual se desee añadir esta información (en este caso el archivo footer.php del tema), para esta segunda opción hay que tener en cuenta que si se cambia el tema hay que volver a añadir el shortcode al archivo del footer.
 
 
-Al instalar el plugin, este hará que el footer que genera se vea por duplicado, ya que como decía anteriormente, he realizado esta prueba de dos formas y así muestro como se ve el footer don ambas opciones.
+Al instalar el plugin, este hará que el footer que genera se vea por duplicado, ya que como decía anteriormente, he realizado esta prueba de dos formas y así muestro como se ve el footer con ambas opciones.
