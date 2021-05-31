@@ -1,0 +1,33 @@
+.foo_footer{
+    border-top: solid 2px black;
+}
+@media(max-width: 991px){
+    .foo_footer div{
+        text-align: center;
+    }
+}
+
+@media(min-width: 992px){
+    .foo_footer div{
+        width: 33.3%;
+        float: left;
+        padding: 20px;
+        margin: 0;
+    }
+
+    .foo_tittle{
+        text-align: left;
+    }
+
+    .foo_admin_mail{
+        text-align: center;
+    }
+
+    .foo_post_info{
+        text-align: right;
+    }
+}
+
+
+
+
