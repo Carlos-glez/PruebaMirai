@@ -6,7 +6,7 @@ Para la primera prueba, despues de la instalación de la herramienta WP-CLI reno
 
 En cuanto a la segunda prueba, la he realizado de dos formas:
 - La primera de manera que el footer se añade automáticamente al activar el plugin.
-- La segunda, que se haría añadiendo el shortcode *[info_site]* mediante la línea de comandos
+- La segunda, que se haría añadiendo el shortcode **[info_site]** mediante la línea de comandos
     
     `<?php wp_footer(); Echo do_shortcode ("[info_site]"); ?>`
     
